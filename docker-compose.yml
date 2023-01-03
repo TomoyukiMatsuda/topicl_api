@@ -4,9 +4,9 @@ services:
   mysql:
     image: "mysql:8.0.30"
     ports:
-      - "3306:3306"
+      - "3306"
     environment:
       MYSQL_ROOT_PASSWORD: "password"
       MYSQL_USER: "topicl"
-      MYSQL_PASSWORD: "password"
+      MYSQL_PASSWORD: ""
       MYSQL_DATABASE: "topicl"
